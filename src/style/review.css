@@ -1,0 +1,43 @@
+
+*{
+    margin: 0 auto;
+}
+
+img{
+    width: 350px;
+    margin: 0;
+}
+
+.container_review-img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1vh;
+    width: 40vw;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 3px 13px 1px rgb(0,0,0 / 9%);
+}
+
+
+.tittle_review , .job_review , .review_review , .container_review_text {
+    background-color: white;
+}
+
+.tittle_review{
+    font-size: 3vh;
+    font-weight: 700;
+    width: 15vw;
+}
+
+.job_review{
+    font-weight: 500;
+    font-size: 2vh;
+    width: 15vw;
+}
+
+.review_review {
+    font-weight: 400;
+    font-size: 1.7vh;
+    width: 15vw;
+}
